@@ -1,0 +1,13 @@
+[package]
+name = "deepinfree"
+version = "0.0.1"
+edition = "2024"
+
+[dependencies]
+base64 = "*"
+reqwest = { version = "*", features = ["blocking", "cookies", "json"] }
+scraper = "*"
+serde = { version = "*", features = ["derive"] }
+serde_json = "*"
+url = "*"
+anyhow = "*"
